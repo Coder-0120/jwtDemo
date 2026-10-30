@@ -23,4 +23,9 @@ public class Post {
     private String author;
     private LocalDateTime createdAt=LocalDateTime.now();
 
+    public Post(String title, String content, String name) {
+        this.title=title;
+        this.content=content;
+        this.author=name;
+    }
 }
